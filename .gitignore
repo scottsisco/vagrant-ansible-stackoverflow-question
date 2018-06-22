@@ -1,0 +1,6 @@
+# ignore all
+*.bak
+*.retry
+*.orig
+.vagrant/
+*.log

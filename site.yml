@@ -1,0 +1,74 @@
+---
+
+
+- hosts: hpc1
+  become: yes
+  become_user: root
+  gather_facts: false
+  pre_tasks:
+  - name: install python2 for ansible
+    raw: bash -c "test -e /usr/bin/python || (apt-get -y update  && apt-get install -y python)"
+  - name: Gathering Facts
+    setup:
+  roles:
+   - hosts-setup
+
+- hosts: hpc2
+  become: yes
+  become_user: root
+  gather_facts: false
+  pre_tasks:
+  - name: install python2 for ansible
+    raw: bash -c "test -e /usr/bin/python || (apt-get -y update  && apt-get install -y python)"
+  - name: Gathering Facts
+    setup:
+  roles:
+   - hosts-setup
+
+- hosts: hpc3
+  become: yes
+  become_user: root
+  gather_facts: false
+  pre_tasks:
+  - name: install python2 for ansible
+    raw: bash -c "test -e /usr/bin/python || (apt-get -y update  && apt-get install -y python)"
+  - name: Gathering Facts
+    setup:
+  roles:
+   - hosts-setup
+
+- hosts: hpc4
+  become: yes
+  become_user: root
+  gather_facts: false
+  pre_tasks:
+  - name: install python2 for ansible
+    raw: bash -c "test -e /usr/bin/python || (apt-get -y update  && apt-get install -y python)"
+  - name: Gathering Facts
+    setup:
+  roles:
+   - hosts-setup
+
+- hosts: hpc5
+  become: yes
+  become_user: root
+  gather_facts: false
+  pre_tasks:
+  - name: install python2 for ansible
+    raw: bash -c "test -e /usr/bin/python || (apt-get -y update  && apt-get install -y python)"
+  - name: Gathering Facts
+    setup:
+  roles:
+   - hosts-setup
+
+- hosts: hpc6 hpc7 hpc8
+  become: yes
+  become_user: root
+  gather_facts: false
+  pre_tasks:
+  - name: install python2 for ansible
+    raw: bash -c "test -e /usr/bin/python || (apt-get -y update  && apt-get install -y python)"
+  - name: Gathering Facts
+    setup:
+  roles:
+   - hosts-setup
