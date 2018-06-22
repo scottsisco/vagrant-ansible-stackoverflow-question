@@ -15,3 +15,6 @@ vim /etc/hosts
 192.168.30.207 hpc7 hpc7.devops.test
 192.168.30.208 hpc8 hpc8.devops.test
 </pre>
+
+**Run Vagrant**
+vagrant up
