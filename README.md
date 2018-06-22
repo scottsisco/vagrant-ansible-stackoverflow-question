@@ -17,4 +17,5 @@ vim /etc/hosts
 </pre>
 
 **Run Vagrant**
+
 vagrant up
