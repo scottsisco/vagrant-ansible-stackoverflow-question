@@ -2,7 +2,7 @@
 
 **Mac DNS Host File Cheat**
 
-vim /etc/hosts
+    vim /etc/hosts
 
 <pre>
 #Vagrant-Ansible-Slurm_Cluster
@@ -18,4 +18,4 @@ vim /etc/hosts
 
 **Run Vagrant**
 
-vagrant up
+    vagrant up
