@@ -1,4 +1,4 @@
-**NOTE: Code is not working as it should**
+**NOTE: Code is now working as it should**
 
 **Vagrant + Anisble + Slurm Cluster**
 
