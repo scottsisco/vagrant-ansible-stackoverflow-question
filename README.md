@@ -1,3 +1,5 @@
+**NOTE: Code is not working as it should**
+
 **Vagrant + Anisble + Slurm Cluster**
 
 **Mac DNS Host File Cheat**
